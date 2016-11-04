@@ -1,0 +1,10 @@
+{
+  "name": "serverless-authentication-module",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "auth0": "^2.5.0",
+    "bluebird": "^3.4.6",
+    "dotenv": "^2.0.0"
+  }
+}

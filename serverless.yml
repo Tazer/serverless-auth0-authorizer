@@ -1,0 +1,13 @@
+service: authentication # change this
+
+provider:
+  name: aws
+  stage: dev
+  region: eu-west-1
+  runtime: nodejs4.3
+
+# Functions
+
+functions:
+ authorize:
+    handler: handler.authorize
