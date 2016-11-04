@@ -11,3 +11,4 @@ Use in your other function's `serverless.yml`
             identityValidationExpression: .*   
 ```
 
+Install via serverless `serverless install -u https://github.com/Tazer/serverless-auth0-authorizer`
