@@ -1,0 +1,1 @@
+# serverless-auth0-lambda-sample
