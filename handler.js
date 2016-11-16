@@ -9,7 +9,8 @@ module.exports.authorize = function(event, context, callback) {
     .then( context.succeed )
     .catch( err => {
       if ( ! err ) context.fail( "Unhandled error case" );
-      context.fail( err );
+      console.error(err);
+      context.fail('Unauthorized');
     });
 };
 
